@@ -67,7 +67,8 @@ if __name__ == '__main__':
             print(ia)
 
     # not valid
-    invalid_input_array = ["1e.", "2..", "abc", "1a", "1e", "e3", "99e2.5", "--6", "-+3", "95a54e53"]
+    invalid_input_array = ["1e.", "2..", "abc", "1a",
+                           "1e", "e3", "99e2.5", "--6", "-+3", "95a54e53"]
     print("=========invalid=======")
     for ia in invalid_input_array:
         try:
